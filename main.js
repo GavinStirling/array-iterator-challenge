@@ -1,3 +1,5 @@
+// 1. Practice Syntax
+
 const capitalNames = (array) => {
     return array.map((name) => {
         return name[0].toUpperCase() + name.slice(1);
@@ -24,6 +26,8 @@ const meanCoaches = (array) => {
 
 // console.log(meanCoaches([25, 50, 175, 50]));
 
+// 2. Problem Solving
+
 const longerThanFive = (array) => {
     return array.filter((word) => {
         return word.length > 5;
@@ -49,6 +53,8 @@ const scrabbleScore = (array) => {
 };
 
 // console.log(scrabbleScore([{ letter: "a", value: 1}, { letter: "k", value: 5}, { letter: "c", value: 3}]));
+
+// 3. Array's and Object's
 
 const milesToKm = (array) => {
     const convertedToKm = array.map((miles) => miles * 1.609344);
